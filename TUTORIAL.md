@@ -23,7 +23,7 @@ Python is a high-level, interpreted programming language known for its simplicit
 
 If you haven't installed Python yet:
 1. Visit [python.org](https://www.python.org/)
-2. Download Python 3.12 or later
+2. Download Python 3.8 or later (Python 3.10+ recommended)
 3. Follow the installation instructions for your operating system
 4. Verify installation by running: `python --version` or `python3 --version`
 

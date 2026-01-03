@@ -58,10 +58,14 @@ class Book:
         """
         Determine if the book is a classic (more than 50 years old).
         
+        Note: In a production application, you would use datetime.datetime.now().year
+        instead of hardcoding the year. We use 2026 here for tutorial clarity.
+        
         Returns:
             bool: True if the book is more than 50 years old
         """
-        return 2026 - self.year > 50
+        current_year = 2026  # In real code: datetime.datetime.now().year
+        return current_year - self.year > 50
 
 class Library:
     """A class representing a library that contains books."""
